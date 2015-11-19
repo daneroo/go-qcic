@@ -1,0 +1,6 @@
+- path: github.com/segmentio/go-loggly-search
+  rev: a13b244435c7c0685172d3002d49bf09891ae635
+- path: github.com/bitly/go-simplejson
+  rev: aabad6e819789e569bd6aabf444c935aa9ba1e44
+- path: github.com/bmizerany/assert
+  rev: e17e99893cb6509f428e1728281c2ad60a6b31e3
