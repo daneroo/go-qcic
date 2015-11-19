@@ -11,4 +11,5 @@ Just small script to observe that deployed systems are functioning correctly.
 
 ## Running
 
+    . ENV.sh # .gitignore loggly credentials
     go run qcicstat/qcic.go
