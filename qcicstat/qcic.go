@@ -1,10 +1,13 @@
 package main
 
-import "github.com/segmentio/go-loggly-search"
-import . "github.com/bitly/go-simplejson"
-import "log"
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"log"
+	"os"
+
+	. "github.com/bitly/go-simplejson"
+	"github.com/segmentio/go-loggly-search"
+)
 
 func check(err error) {
 	if err != nil {

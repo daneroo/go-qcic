@@ -1,6 +1,12 @@
-- path: github.com/segmentio/go-loggly-search
-  rev: a13b244435c7c0685172d3002d49bf09891ae635
+- path: github.com/nlopes/slack
+  rev: 9153359e4c6e3dd6fecd68332164321b5efd543f
 - path: github.com/bitly/go-simplejson
   rev: aabad6e819789e569bd6aabf444c935aa9ba1e44
+- path: github.com/segmentio/go-loggly-search
+  rev: a13b244435c7c0685172d3002d49bf09891ae635
 - path: github.com/bmizerany/assert
   rev: e17e99893cb6509f428e1728281c2ad60a6b31e3
+- path: github.com/stretchr/testify
+  rev: 67106a5111a06241c8d84952c33214675f51a34a
+- path: golang.org/x/net
+  rev: 1d9fd3b8333e891c0e7353e1adcfe8a612573033
