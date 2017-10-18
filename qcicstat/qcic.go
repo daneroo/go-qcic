@@ -28,7 +28,7 @@ func env(name string) string {
 func main() {
 	c := search.New(env("ACCOUNT"), env("USER"), env("PASS"))
 
-	res, err := c.Query(`signature`).Size(50).From("-5h").Fetch()
+	res, err := c.Query(`logcheck`).Size(50).From("-5h").Fetch()
 	check(err)
 
 	for _, event := range res.Events {

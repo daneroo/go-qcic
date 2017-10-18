@@ -11,18 +11,21 @@ Just small script to observe that deployed systems are functioning correctly.
 
 ## Running
 
-    . ENV.sh # .gitignore'd loggly credentials
-    go run qcicstat/qcic.go
+```
+. ENV.sh # .gitignore'd loggly credentials
+go run qcicstat/qcic.go
+```
 
 ## Slack integration
 
 https://github.com/nlopes/slack is causing some import problems for assert with govend
 
-    . ENV.sh # .gitignore'd  credentials    
+```
+. ENV.sh # .gitignore'd  credentials    
 
-    # public inhook
-    curl -X POST --data-urlencode 'payload={"text": "This is my message"}' ${SLACK_INHOOK}        
+# public inhook
+curl -X POST --data-urlencode 'payload={"text": "This is my message"}' ${SLACK_INHOOK}        
 
-    # From go, with a user token ()
-    go run slackstat/slack.go 
-
+# From go, with a user token ()
+go run slackstat/slack.go 
+```
