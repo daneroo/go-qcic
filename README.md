@@ -14,6 +14,7 @@ Just small script to observe that deployed systems are functioning correctly.
 ```
 . ENV.sh # .gitignore'd loggly credentials
 go run qcicstat/qcic.go
+go run slackstat/slack.go
 ```
 
 ## Slack integration
