@@ -45,7 +45,7 @@ func main() {
 		},
 	}
 	params.Attachments = []slack.Attachment{attachment}
-	channelID, timestamp, err := api.PostMessage("#wwww", "Some text mentioning @daniel", params)
+	channelID, timestamp, err := api.PostMessage("#qcic", "Some text mentioning @daniel", params)
 	if err != nil {
 		fmt.Printf("%s\n", err)
 		return
